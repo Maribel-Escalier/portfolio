@@ -84,6 +84,15 @@
     }
 }
 
+@media screen and (max-width: $display-width-tablet-landscape) {
+    .containerHerramientas{
+        justify-content: space-around;
+        padding: 0 30px;
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
 @media screen and (max-width: $display-width-tablet) {
     .containerHabilidades{
         grid-template-columns: 1fr;

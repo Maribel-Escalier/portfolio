@@ -284,12 +284,6 @@ main {
   .seccionEstudiosBio {
     justify-content: space-around;
   }
-  .containerHerramientas {
-    justify-content: space-around;
-    padding: 0 30px;
-    flex-direction: column;
-    gap: 30px;
-  }
 }
 @media screen and (max-width: 576px) {
   .seccionEstudiosBio {
@@ -377,6 +371,14 @@ main {
   .containerHerramientas {
     justify-content: space-around;
     padding: 0 30px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .containerHerramientas {
+    justify-content: space-around;
+    padding: 0 30px;
+    flex-direction: column;
+    gap: 30px;
   }
 }
 @media screen and (max-width: 768px) {
