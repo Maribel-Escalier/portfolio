@@ -13,23 +13,25 @@ footer {
     grid-area: footer;
     background-color: $background-tertiary-color;
     color: $font-tertiary-color;
+
+    .titleFooter {
+        font-size: 12px;
+        font-weight: 400;
+        margin-bottom: 0;
+    }
+    
+    .subtitleFooter {
+        font-size: 12px;
+        font-weight: 400;
+        margin-bottom: 0;
+    }
 }
 
 .footerBorderTop {
     border-top: 1px solid rgba(0,0,0,0.2);
 }
 
-.titleFooter {
-    font-size: 12px;
-    font-weight: 400;
-    margin-bottom: 0;
-}
 
-.subtitleFooter {
-    font-size: 12px;
-    font-weight: 400;
-    margin-bottom: 0;
-}
 
 @media screen and (max-width: $display-width-tablet-landscape) {
     footer {
