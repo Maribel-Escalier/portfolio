@@ -1,0 +1,76 @@
+.containerTrabajos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 80px;
+    width: 100%;
+}
+
+hr.solid {
+    border-top: 2px solid $background-primary-color;
+    width: 1150px;
+}
+
+.cajaTrabajo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 1150px;
+}
+
+.cajaTrabajo:hover .containerImageTrabajo {
+    width: 460px;
+    height: 260px;
+    transition: 0.3s;
+}
+
+.cajaTrabajo:hover .containerParagraphTrabajos {
+    width: 660px;
+    transition: 0.3s;
+}
+
+.containerImageTrabajo {
+    width: 420px;
+    height: 220px;
+    transition: 0.3s;
+}
+
+.imageTrabajos {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.containerParagraphTrabajos {
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    transition: 0.3s;
+}
+
+.paragraphTrabajos {
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 128%
+}
+
+.containerButtonTrabajos {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 46px;
+    
+}
+
+.containerButtonTrabajos button {
+    display: inline;
+    margin: 0;
+}

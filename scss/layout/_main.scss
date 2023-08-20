@@ -1,0 +1,19 @@
+.content_grid_body {
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 76px 1fr 85px;
+    width: 100%;
+    min-height: 100vh;
+    grid-template-areas:
+    'header'
+    'main'
+    'footer';
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+}

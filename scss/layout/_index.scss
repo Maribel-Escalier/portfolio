@@ -1,0 +1,46 @@
+.main_grid_home {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100%;
+    grid-template-areas:
+    'titulo titulo imagen imagen'
+    'parrafo parrafo imagen imagen';
+}
+.main_grid_home_title{
+    grid-area: titulo;
+    align-self: end;
+    padding-bottom: 20px;
+}
+
+.main_grid_home_paragraph {
+    grid-area: parrafo;
+    align-self: start;
+    padding-top: 20px;
+}
+
+.main_grid_home_img {
+    grid-area: imagen;
+}
+
+.imageHome {
+    width: 560px;
+    height: auto;
+    display: block;
+}
+
+.title_home {
+    padding: 40px 0 0;
+}
+
+.paragraphHome {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 128%;
+    margin-bottom: 60px;
+    text-align: center;
+    padding: 0 15%;
+}

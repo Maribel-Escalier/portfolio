@@ -1,0 +1,72 @@
+.container_page_habilidades{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.paragraphHabilidades {
+    font-size: 20px;
+    margin-bottom: 0;
+    cursor: default;
+}
+
+.containerHabilidades{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: start;
+    width: 100%;
+    grid-template-areas:
+    'column1 column2 column3';
+    gap: 35px;
+}
+
+.habilidades_items{
+    border-radius: 30px;
+    background-color: $background-tertiary-color;
+    color: $font-secondary-color;
+    padding: 15px 30px;
+    border: 3px solid transparent;
+    font-weight: 400;
+    transition: 0.3s;
+}
+
+.habilidades_items:hover {
+    background-color: $background-primary-color;
+    color: $font-primary-color;
+    border: 3px solid $background-tertiary-color;
+    transition: 0.3s;
+}
+
+.containerHerramientas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+    width: 100%;
+}
+
+.cajaHerramientas{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.imageHerramienta{
+    width: 38px;
+    height: auto;
+    display: block;
+}
+
+.nombreHerramienta{
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}

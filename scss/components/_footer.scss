@@ -1,0 +1,32 @@
+.background_white{
+    background-color: $background-primary-color;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:center;
+    padding: 27px 120px 25px 120px;
+    gap: 110px;
+    grid-area: footer;
+    background-color: $background-tertiary-color;
+    color: $font-tertiary-color;
+}
+
+.footerBorderTop {
+    border-top: 1px solid rgba(0,0,0,0.2);
+}
+
+.titleFooter {
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.subtitleFooter {
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 0;
+}

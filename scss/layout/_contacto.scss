@@ -1,0 +1,17 @@
+.flex_form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+    align-items: center;
+    gap: 20px;
+}
+
+.form_input {
+width: 600px;
+}
+
+.form_textarea {
+width: 600px;
+height: 200px !important;
+}
