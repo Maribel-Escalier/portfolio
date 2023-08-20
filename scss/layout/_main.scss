@@ -17,3 +17,9 @@ header {
 main {
     grid-area: main;
 }
+
+@media screen and (max-width: $display-width-tablet-landscape) {
+    .content_grid_body {
+        grid-template-rows: 76px 1fr auto;
+    }
+}

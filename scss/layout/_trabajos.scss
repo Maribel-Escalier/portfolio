@@ -74,3 +74,93 @@ hr.solid {
     display: inline;
     margin: 0;
 }
+
+@media screen and (max-width: $display-width-laptop) {
+    .cajaTrabajo {
+        width: 100%;
+        padding: 0 25px;
+    }
+
+    .containerImageTrabajo {
+        width: 35%;
+        height: auto;
+        transition: 0.3s;
+    }
+
+    .containerParagraphTrabajos {
+        width: 55%;
+        transition: 0.3s;
+    }
+
+    hr.solid {
+        width: 90%;
+    }
+
+    .cajaTrabajo:hover .containerImageTrabajo {
+        width: 45%;
+        height: auto;
+        transition: 0.3s;
+    }
+    
+    .cajaTrabajo:hover .containerParagraphTrabajos {
+        width: 45%;
+        transition: 0.3s;
+    }
+
+    .imageTrabajos {
+        object-fit: contain;
+    }
+}
+
+@media screen and (max-width: $display-width-tablet) {
+    .cajaTrabajo {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .containerImageTrabajo {
+        width: 80%;
+        height: auto;
+        transition: 0.3s;
+    }
+
+    .containerParagraphTrabajos {
+        width: 100%;
+        transition: 0.3s;
+    }
+
+    .containerParagraphTrabajos h3 {
+        text-align: center;
+    }
+
+    .paragraphTrabajos {
+        text-align: center;
+    }
+
+    hr.solid {
+        width: 90%;
+    }
+
+    .cajaTrabajo:hover .containerImageTrabajo {
+        width: 95%;
+        height: auto;
+        transition: 0.3s;
+    }
+    
+    .cajaTrabajo:hover .containerParagraphTrabajos {
+        width: 100%;
+        transition: 0.3s;
+    }
+
+    .imageTrabajos {
+        object-fit: contain;
+    }
+
+}
+
+@media screen and (max-width: $display-width-mobile) {
+    .cajaTrabajo {
+        margin-bottom: 30px;
+    }
+}

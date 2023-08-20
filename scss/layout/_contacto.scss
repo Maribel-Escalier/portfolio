@@ -15,3 +15,22 @@ width: 600px;
 width: 600px;
 height: 200px !important;
 }
+
+@media screen and (max-width: $display-width-tablet) {
+    .form_input {
+        width: 100%;
+    }
+
+    .form-floating {
+        width: 100%;
+    }
+        
+    .form_textarea {
+    width: 100%;
+    }
+
+    .flex_form {
+        padding: 0 25px;
+    }
+
+}

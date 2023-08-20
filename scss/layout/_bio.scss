@@ -49,3 +49,27 @@
     font-weight:400;
     text-align: center;
 }
+
+@media screen and (max-width: $display-width-tablet-landscape) {
+    .paragraphBio {
+        padding: 0 40px;
+    }
+
+    .seccionEstudiosBio {
+        justify-content: space-around;
+    }
+    
+    .containerHerramientas{
+        justify-content: space-around;
+        padding: 0 30px;
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: $display-width-mobile) {
+    .seccionEstudiosBio {
+        flex-direction: column;
+        align-items: center;
+    }
+}

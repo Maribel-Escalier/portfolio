@@ -13,3 +13,9 @@ nav {
     height: auto;
     display: block;
 }
+
+@media screen and (max-width: $display-width-laptop) {
+    nav {
+        padding: 20px 20px 22px 20px;
+    }
+}

@@ -70,3 +70,24 @@
     letter-spacing: 1px;
     margin-top: 10px;
 }
+
+@media screen and (max-width: $display-width-laptop) {
+    .containerHabilidades{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+        'column1 column2';
+    }
+
+    .containerHerramientas{
+        justify-content: space-around;
+        padding: 0 30px;
+    }
+}
+
+@media screen and (max-width: $display-width-tablet) {
+    .containerHabilidades{
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        'column1';
+    }
+}

@@ -42,3 +42,12 @@ h3{
     margin: 75px auto 75px auto;
     width: fit-content;
 }
+
+@media screen and (max-width: $display-width-mobile) {
+    h1 {
+        font-size: 36px;
+    }
+    .actionButton {
+        margin: 30px auto 45px auto;
+    }
+}
