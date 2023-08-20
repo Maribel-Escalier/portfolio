@@ -1,14 +1,11 @@
 .main_grid_home {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    @include grid(repeat(4, 1fr), repeat(2, 1fr), 
+    'titulo titulo imagen imagen'
+    'parrafo parrafo imagen imagen');
     justify-items: center;
     align-items: center;
     width: 100%;
     min-height: 100%;
-    grid-template-areas:
-    'titulo titulo imagen imagen'
-    'parrafo parrafo imagen imagen';
 }
 .main_grid_home_title{
     grid-area: titulo;

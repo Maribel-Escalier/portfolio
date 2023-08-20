@@ -5,14 +5,10 @@
 }
 
 .containerHabilidades{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr;
+    @include grid(repeat(3, 1fr), 1fr, 'column1 column2 column3');
     justify-items: center;
     align-items: start;
     width: 100%;
-    grid-template-areas:
-    'column1 column2 column3';
     gap: 35px;
 
     .habilidades_items{

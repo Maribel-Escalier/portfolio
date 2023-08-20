@@ -1,0 +1,6 @@
+@mixin grid($gridTemplateColumns, $gridTemplateRows, $gridTemplateAreas){
+    display: grid;
+    grid-template-columns: $gridTemplateColumns;
+    grid-template-rows: $gridTemplateRows;
+    grid-template-areas: $gridTemplateAreas;
+}

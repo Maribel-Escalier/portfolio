@@ -163,11 +163,11 @@ main {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "titulo titulo imagen imagen" "parrafo parrafo imagen imagen";
   justify-items: center;
   align-items: center;
   width: 100%;
   min-height: 100%;
-  grid-template-areas: "titulo titulo imagen imagen" "parrafo parrafo imagen imagen";
 }
 
 .main_grid_home_title {
@@ -297,10 +297,10 @@ main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
+  grid-template-areas: "column1 column2 column3";
   justify-items: center;
   align-items: start;
   width: 100%;
-  grid-template-areas: "column1 column2 column3";
   gap: 35px;
 }
 .containerHabilidades .habilidades_items {
