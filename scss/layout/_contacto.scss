@@ -1,7 +1,5 @@
 .flex_form {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
+    @extend .flexColumnNoWrap;
     width: 100%;
     align-items: center;
     gap: 20px;

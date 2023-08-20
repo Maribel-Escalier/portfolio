@@ -1,0 +1,11 @@
+.flexRowNoWrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.flexColumnNoWrap {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}

@@ -38,18 +38,14 @@
 }
 
 .containerHerramientas{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    @extend .flexRowNoWrap;
     justify-content: space-between;
     align-items: center;
     margin-top: 60px;
     width: 100%;
 
     .cajaHerramientas{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
+        @extend .flexColumnNoWrap;
         justify-content: center;
         align-items: center;
         text-align: center;

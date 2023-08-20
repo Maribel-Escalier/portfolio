@@ -1,7 +1,5 @@
 .containerTrabajos {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
+    @extend .flexColumnNoWrap;
     align-items: center;
     gap: 80px;
     width: 100%;
@@ -13,9 +11,7 @@ hr.solid {
 }
 
 .cajaTrabajo {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    @extend .flexRowNoWrap;
     justify-content: space-between;
     width: 1150px;
 
@@ -46,10 +42,8 @@ hr.solid {
 }
 
 .containerParagraphTrabajos {
+    @extend .flexColumnNoWrap;
     width: 700px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
     justify-content: space-between;
     transition: 0.3s;
 
@@ -61,11 +55,9 @@ hr.solid {
 }
 
 .containerButtonTrabajos {
+    @extend .flexRowNoWrap;
     width: 100%;
     margin-top: 30px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
     justify-content: center;
     gap: 46px;
 

@@ -1,4 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap");
+.flexRowNoWrap, .containerButtonTrabajos, .cajaTrabajo, .containerHerramientas, .seccionEstudiosBio, footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.flexColumnNoWrap, .flex_form, .containerParagraphTrabajos, .containerTrabajos, .containerHerramientas .cajaHerramientas {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -90,9 +102,6 @@ nav {
 
 footer {
   width: 100%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
   justify-content: center;
   padding: 27px 120px 25px 120px;
   gap: 110px;
@@ -236,9 +245,6 @@ main {
 
 .seccionEstudiosBio {
   width: 100%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
   justify-content: space-between;
   align-items: flex-start;
   margin-top: 60px;
@@ -319,18 +325,12 @@ main {
 }
 
 .containerHerramientas {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
   margin-top: 60px;
   width: 100%;
 }
 .containerHerramientas .cajaHerramientas {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -372,9 +372,6 @@ main {
   }
 }
 .containerTrabajos {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
   align-items: center;
   gap: 80px;
   width: 100%;
@@ -386,9 +383,6 @@ hr.solid {
 }
 
 .cajaTrabajo {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
   justify-content: space-between;
   width: 1150px;
 }
@@ -416,9 +410,6 @@ hr.solid {
 
 .containerParagraphTrabajos {
   width: 700px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
   justify-content: space-between;
   transition: 0.3s;
 }
@@ -431,9 +422,6 @@ hr.solid {
 .containerButtonTrabajos {
   width: 100%;
   margin-top: 30px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
   justify-content: center;
   gap: 46px;
 }
@@ -515,9 +503,6 @@ hr.solid {
   }
 }
 .flex_form {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
   width: 100%;
   align-items: center;
   gap: 20px;
