@@ -47,8 +47,10 @@
 }
 
 @media screen and (max-width: $display-width-tablet-landscape) {
-    .paragraphBio {
-        padding: 0 40px;
+    .containerBio {
+        .paragraphBio {
+            padding: 0 40px;
+        }
     }
 
     .seccionEstudiosBio {

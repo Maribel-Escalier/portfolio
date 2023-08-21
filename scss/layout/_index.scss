@@ -59,19 +59,23 @@
 }
 
 @media screen and (max-width: $display-width-mobile) {
-    .title_home {
-        padding: 20px 20px 0;
+    .main_grid_home_title{
+        .title_home {
+            padding: 20px 20px 0;
+        }
     }
-
-    .paragraphHome {
-        font-size: 14px;
-        font-weight: 300;
-        line-height: 128%;
-        margin-bottom: 0;
-        padding: 0 20px;
+    .main_grid_home_paragraph{
+        .paragraphHome {
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 128%;
+            margin-bottom: 0;
+            padding: 0 20px;
+        }
     }
-
-    .imageHome {
-        width: 100%;
+    .main_grid_home_img {
+        .imageHome {
+            width: 100%;
+        }
     }
 }

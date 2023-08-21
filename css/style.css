@@ -215,17 +215,17 @@ main {
   }
 }
 @media screen and (max-width: 576px) {
-  .title_home {
+  .main_grid_home_title .title_home {
     padding: 20px 20px 0;
   }
-  .paragraphHome {
+  .main_grid_home_paragraph .paragraphHome {
     font-size: 14px;
     font-weight: 300;
     line-height: 128%;
     margin-bottom: 0;
     padding: 0 20px;
   }
-  .imageHome {
+  .main_grid_home_img .imageHome {
     width: 100%;
   }
 }
@@ -274,7 +274,7 @@ main {
 }
 
 @media screen and (max-width: 992px) {
-  .paragraphBio {
+  .containerBio .paragraphBio {
     padding: 0 40px;
   }
   .seccionEstudiosBio {
@@ -456,7 +456,7 @@ hr.solid {
     width: 45%;
     transition: 0.3s;
   }
-  .imageTrabajos {
+  .containerImageTrabajo .imageTrabajos {
     object-fit: contain;
   }
 }
@@ -478,7 +478,7 @@ hr.solid {
   .containerParagraphTrabajos h3 {
     text-align: center;
   }
-  .paragraphTrabajos {
+  .containerParagraphTrabajos .paragraphTrabajos {
     text-align: center;
   }
   hr.solid {
@@ -493,7 +493,7 @@ hr.solid {
     width: 100%;
     transition: 0.3s;
   }
-  .imageTrabajos {
+  .containerImageTrabajo .imageTrabajos {
     object-fit: contain;
   }
 }
